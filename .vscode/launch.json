@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "PuzzlePlatforms (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Mac Debug Build",
+			"program": "/Users/zkc08/gd/unreal project/PuzzlePlatforms/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "PuzzlePlatforms (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Mac DebugGame Build",
+			"program": "/Users/zkc08/gd/unreal project/PuzzlePlatforms/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "PuzzlePlatforms (Development)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Mac Development Build",
+			"program": "/Users/zkc08/gd/unreal project/PuzzlePlatforms/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "PuzzlePlatforms (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Mac Shipping Build",
+			"program": "/Users/zkc08/gd/unreal project/PuzzlePlatforms/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "PuzzlePlatforms (Test)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Mac Test Build",
+			"program": "/Users/zkc08/gd/unreal project/PuzzlePlatforms/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "PuzzlePlatformsEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatformsEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/zkc08/gd/unreal project/PuzzlePlatforms/PuzzlePlatforms.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "PuzzlePlatformsEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatformsEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
+			"args": [
+				"/Users/zkc08/gd/unreal project/PuzzlePlatforms/PuzzlePlatforms.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "PuzzlePlatformsEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatformsEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/zkc08/gd/unreal project/PuzzlePlatforms/PuzzlePlatforms.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/zkc08/gd/unreal project/PuzzlePlatforms/PuzzlePlatforms.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.25"
+		}
+	]
+}

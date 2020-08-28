@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/.vscode": true,
+		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/Content": true,
+		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/DerivedDataCache": true,
+		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/Intermediate": true,
+		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/Saved": true
+	}
+}
