@@ -1,5 +1,6 @@
 {
 	"files.exclude": {
+		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/.git": true,
 		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/.vscode": true,
 		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/Content": true,
 		"/Users/zkc08/gd/unreal project/PuzzlePlatforms/DerivedDataCache": true,
