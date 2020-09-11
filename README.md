@@ -6,3 +6,5 @@ A fun puzzle solving game which teaches basics of multiplayer in unreal engine
 [Course link on udemy](https://www.udemy.com/course/unrealmultiplayer)<br><br>
 [Website of gamedev.tv](https://www.gamedev.tv/)
 
+## Dowload the game link
+--> [Puzzle Platforms Download](https://zkc08.itch.io/puzzle-platforms)
